@@ -1,0 +1,348 @@
+/* BODY STYLE */
+body {
+    background-color: #002B5B;
+    color: white;
+}
+/* HEADER STYLES */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.head-fir-div  {
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.head-fir-div a {
+    text-decoration: none;
+    color: white;
+}
+
+.head-sec-div a {
+    text-decoration: none;
+    color: white;
+}
+
+.head-sec-div {
+    width: 50%;
+    word-spacing: 20px;
+}
+
+.butt {
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    background-color: orangered;
+    color: white;
+}
+
+/* MAIN-DIV STYLES */
+
+.main-fir-div {
+    width: 550px;
+    margin: 10px auto 0;
+}
+
+.fir-div {
+    margin-top: 30px;
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+@media (min-width: 560px) {
+    .fir-div p {
+        float: left;
+    }
+}
+
+@media (max-width: 560px) {
+    .fir-div {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .fir-div {
+        text-align: center;
+    }
+}
+.number1 {
+    margin-left: 50px;
+}
+
+.para {
+    font-size: 10px;
+}
+
+.fir-div div img {
+    width: 250px;
+}
+
+/* ORDER BUTTON STYLES */
+.order {
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    margin-top: 30px;
+}
+
+.service {
+    text-align: center;
+    
+}
+
+.flex {
+    display: flex;
+}
+
+.services-div {
+    text-align: center;
+    width: 33%;
+}
+
+.services-div img {
+    width: 65%;
+    height: 150px;
+}
+
+.services-div p {
+    font-size: 12px;
+}
+
+/* About Div */
+.about-text p {
+    font-size: 12px;
+}
+
+.about-text {
+    width: 250px;
+    margin-right: 150px;
+}
+
+.about {
+    margin: 50px auto;
+}
+
+/* PREMIUM DIV */
+
+.premium {
+    width: 400px;
+    margin: 100px auto;
+}
+
+.premium-img {
+    width: 75%;
+    height: 93px;
+}
+
+.txt-12 {
+    font-size: 12px;
+}
+
+.inner-premium {
+    width: 33%;
+    text-align: center;
+}
+
+.space-b {
+    justify-content: space-between;
+}
+
+.premium-img2 {
+    background-color: orangered;
+    float: right;
+}
+
+/* DISCOUNT DIV */
+.discount div img {
+    width: 150px;
+}
+
+.discount {
+    justify-content: space-evenly;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 100px;
+}
+
+/* New Arrivals (arrival div section) */
+
+.arrival {
+    margin-top: 80px;
+}
+
+.arrival div {
+    justify-content: space-between;
+    width: 550px;
+    margin: 20px auto 50px;
+}
+
+.bacon {
+    width: 30%;
+}
+
+.new-but {
+    display: block;
+    font-size: 14px;
+    width: fit-content;
+    text-align: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    background-color: orangered;
+    color: white;
+}
+
+.bacon img {
+    margin-top: 10px;
+    width: 80px;
+}
+
+.bacon p img {
+    width: 26px;
+}
+
+.orange-txt {
+    color: orangered;
+    font-size: 8px;
+}
+
+.order a {
+    text-decoration: none;
+    color: white;
+}
+
+.fish {
+    text-align: right;
+    font-size: 10px;
+}
+
+.bacon-cart {
+    background-color: orangered;
+}
+
+.back-top {
+    background-color: orangered;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.back-top a {
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+.back-top:hover {
+    border: none;
+    border-bottom: solid 3px yellow;
+    padding: 40px;
+}
+
+/* FOOTER SECTION */
+footer{
+    text-align: center;
+    font-size: 8px;
+    padding: 20px;
+    font-family: sans-serif;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+
+@media (min-width:420px ) and (max-width:860px) {
+    nav {
+        display: hidden;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .head-fir-div {
+        width: 80px;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .head-sec-div {
+        width: 30px;
+        text-align: center;
+        align-items: center;
+        display: none;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .fir-div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fir-div p {
+        width: 200px;
+    }
+
+    .bacon {
+        width: 100px
+    }
+
+    .new-but {
+        margin: 0 auto;
+    }
+
+    .bacon-cart {
+        /* align-items: center; */
+        /* margin: 0 auto; */
+        background-color: orangered;
+    }
+
+    .inner-premium {
+        margin: 0 auto;
+    }
+
+    .services-div {
+        margin: 0 auto;
+    }
+
+    .about, .about-text, .about-img {
+        margin: 20px auto;
+    }
+
+    .about h2 {
+        text-align: center;
+    }
+
+    .order {
+        margin: 10px auto;
+    }
+
+    .para {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .fish {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
